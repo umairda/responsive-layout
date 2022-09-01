@@ -3,8 +3,10 @@ import { ReactComponent as LogoIcon } from '../../assets/Logo.svg'
 
 function Logo() {
     return (
-        <div>
+        <span>
             <LogoIcon />
-        </div>
+        </span>
     )
 }
+
+export default Logo
