@@ -7,12 +7,10 @@ function BadgeCallout() {
     return (
         <div className={styles.calloutContainer}>
             <Badge text="We're Hiring" />
-            <div className={styles.callout}>
-                <span>Visit our careers page</span>
-                <a href="/" title="Visit our careers page">
-                    <ArrowRight width={6} height={10} />
-                </a>
-            </div>
+            <div className={styles.callout}>Visit our careers page</div>
+            <a href="/" title="Visit our careers page">
+                <ArrowRight width={6} height={10} />
+            </a>
         </div>
     )
 }

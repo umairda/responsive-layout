@@ -25,3 +25,7 @@
 
     color: #FFFFFF;
 }
+
+.arrowLink svg {
+    margin-left: 15px;
+}

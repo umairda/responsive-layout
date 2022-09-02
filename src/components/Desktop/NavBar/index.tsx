@@ -5,7 +5,7 @@ import styles from './NavBar.module.css'
 
 function LeftNav() {
     return (
-        <div>
+        <div className={styles.gap}>
             <a href="/" title="Product">Product</a>
             <a href="/" title="Features">Features</a>
             <a href="/" title="Marketplace">Marketplace</a>
@@ -16,7 +16,7 @@ function LeftNav() {
 
 function RightNav() {
     return (
-        <div>
+        <div className={styles.gap}>
             <a href="/" title="Log in">Log in</a>
             <StartFreeTrialButton />
         </div>
