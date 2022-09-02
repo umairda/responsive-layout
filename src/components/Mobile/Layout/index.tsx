@@ -17,9 +17,7 @@ function Layout() {
 
     return (
         <>
-            { showOverlay && (
-                <Overlay />
-            )}
+            <Overlay />
             <div className={styles.mobileLayoutContainer} style={{ opacity: showOverlay ? 0.5 : 1 }} onClick={showOverlay ? closeOverlay : () => {}}>
                 <NavBar />
                 <div className={styles.badgeCalloutContainer}>

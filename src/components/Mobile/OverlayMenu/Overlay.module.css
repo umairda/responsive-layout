@@ -1,4 +1,4 @@
-.overlayContainer {
+.overlayContainerOpen {
     padding: 21px;
     margin: 8px;
 
@@ -10,6 +10,24 @@
     top: 0;
     left: 0;
     right: 0;
+
+    transition: all 0.5s ease;
+    will-change: transform;
+    max-height: 400px;
+}
+
+.overlayContainerClosed {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    transition: all 0.5s ease;
+    will-change: transform;
+    max-height: 0px;
 }
 
 .linksContainer {
