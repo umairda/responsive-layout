@@ -1,0 +1,28 @@
+.badge {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 12px;
+
+    /* width: 108px; */
+    height: 24px;
+
+    /* indigo/500 */
+
+    background: #6366F1;
+    border-radius: 10px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+}
