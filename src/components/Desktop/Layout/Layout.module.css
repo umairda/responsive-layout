@@ -19,3 +19,12 @@
     margin-top: 20px;
     width: 470px;
 }
+
+.emailSignupContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    /* 425+12+139 */
+    width: 500px;
+    height: 48px;
+}
