@@ -6,6 +6,7 @@ import StartFreeTrialButton from '../../StartFreeTrialButton'
 import NavBar from '../NavBar'
 import Input from '../../Input'
 import styles from './Layout.module.css'
+import DetailsCallout from '../../DetailsCallout'
 
 function Layout() {
     return (
@@ -24,6 +25,9 @@ function Layout() {
                 <div className={styles.emailSignupContainer}>
                     <Input placeholder="Enter your email" />
                     <StartFreeTrialButton />
+                </div>
+                <div className={styles.detailsCalloutContainer}>
+                    <DetailsCallout />
                 </div>
             </div>
         </div>
