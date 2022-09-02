@@ -24,3 +24,10 @@
         line-height: 24px;
     }
 }
+
+@media (max-width: 950px) {
+    .paragraphTextContainer {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

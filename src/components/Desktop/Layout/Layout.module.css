@@ -28,6 +28,12 @@
     height: 48px;
 }
 
+@media (max-width: 950px) {
+    .emailSignupContainer {
+        width: 500px;
+    }
+}
+
 .detailsCalloutContainer {
     margin-top: 16px;
     width: 480px;

@@ -1,11 +1,18 @@
 .h1 {
     font-weight: 800;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 72px;
+    line-height: 72px;
     /* or 100% */
 
     letter-spacing: -0.025em;
     margin: 0;
+}
+
+@media (max-width: 950px) {
+    .h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
 }
 
 @media (max-width: 480px) {
