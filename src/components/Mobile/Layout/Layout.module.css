@@ -1,3 +1,26 @@
 .mobileLayoutContainer {
     margin: 29px 16px 0px 16px;
 }
+
+.badgeCalloutContainer {
+    margin-top: 45px;
+}
+
+.pitchCalloutContainer {
+    margin-top: 16px;
+}
+
+.descriptionCalloutContainer {
+    margin-top: 12px;
+}
+
+.emailSignupContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.detailsCalloutContainer {
+    margin-top: 12px;
+}
