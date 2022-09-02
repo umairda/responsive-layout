@@ -1,5 +1,6 @@
 import React from 'react'
 import BadgeCallout from '../../BadgeCallout'
+import DescriptionCallout from '../../DescriptionCallout'
 import PitchCallout from '../../PitchCallout'
 import NavBar from '../NavBar'
 import styles from './Layout.module.css'
@@ -14,6 +15,9 @@ function Layout() {
                 </div>
                 <div className={styles.pitchCalloutContainer}>
                     <PitchCallout />
+                </div>
+                <div className={styles.descriptionCalloutContainer}>
+                    <DescriptionCallout />
                 </div>
             </div>
         </div>
