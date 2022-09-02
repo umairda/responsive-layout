@@ -24,7 +24,7 @@ function Layout() {
                 </div>
                 <div className={styles.emailSignupContainer}>
                     <Input placeholder="Enter your email" />
-                    <StartFreeTrialButton />
+                    <StartFreeTrialButton color="#6366F1" />
                 </div>
                 <div className={styles.detailsCalloutContainer}>
                     <DetailsCallout />
