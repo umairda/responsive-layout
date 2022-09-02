@@ -6,11 +6,10 @@ import styles from './NavBar.module.css'
 function LeftNav() {
     return (
         <div>
-            <Logo />
-            <a href="" alt="Product">Product</a>
-            <a href="" alt="Features">Features</a>
-            <a href="" alt="Marketplace">Marketplace</a>
-            <a href="" alt="Company">Company</a>
+            <a href="/" title="Product">Product</a>
+            <a href="/" title="Features">Features</a>
+            <a href="/" title="Marketplace">Marketplace</a>
+            <a href="/" title="Company">Company</a>
         </div>
     )
 }
@@ -18,7 +17,7 @@ function LeftNav() {
 function RightNav() {
     return (
         <div>
-            <a href="" alt="Log in">Log in</a>
+            <a href="/" title="Log in">Log in</a>
             <StartFreeTrialButton />
         </div>
     )

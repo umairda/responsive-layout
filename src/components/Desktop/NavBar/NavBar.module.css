@@ -1,10 +1,17 @@
 .navBarContainer {
     display: flex;
-    flex-direction: row;
+    height: 42px;
+    align-items: center;
 }
 
 .navContainer {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
     justify-content: space-between;
+    margin-left: 41px;
+}
+
+a {
+    margin-right: 32px;
 }
