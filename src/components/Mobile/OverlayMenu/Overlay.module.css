@@ -1,4 +1,41 @@
 .overlayContainer {
-    background: #ffffff;
-    margin: 21px;
+    padding: 21px;
+    margin: 8px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06), 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.linksContainer {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.linksContainer > a {
+    color: #374151;
+}
+
+.freeTrialContainer {
+    margin-top: 32px;
+    display: flex;
+}
+
+.loginContainer {
+    margin-top: 24px;
+}
+
+.loginContainer > span {
+    color: #6B7280;
+}
+
+.loginContainer > a {
+    color: #111827;
 }

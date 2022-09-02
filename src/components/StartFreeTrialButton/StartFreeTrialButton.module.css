@@ -1,4 +1,7 @@
 .button {
+    display: flex;
+    flex-grow: 1;
+    
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -16,11 +19,6 @@
     border-radius: 6px;
 
     /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
 
     font-style: normal;
     font-weight: 500;
