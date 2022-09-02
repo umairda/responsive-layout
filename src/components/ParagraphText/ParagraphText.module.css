@@ -1,0 +1,19 @@
+.paragraphTextContainer {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+
+    /* gray/300 */
+
+    color: #D1D5DB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
