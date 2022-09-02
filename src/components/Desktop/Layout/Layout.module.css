@@ -32,3 +32,15 @@
     margin-top: 16px;
     width: 480px;
 }
+
+.graphicsContainer {
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+.graphicsContainerSmall {
+    position: absolute;
+    right: 0;
+    top: 200px;
+}

@@ -1,7 +1,5 @@
 import React from 'react'
-import ParagraphText from '../../ParagraphText';
 import StartFreeTrialButton from '../../StartFreeTrialButton';
-import { useOverlayContext } from './Context';
 import OverlayNavBar from './NavBar';
 import styles from './Overlay.module.css'
 
