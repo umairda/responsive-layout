@@ -9,6 +9,7 @@ import NavBar from '../NavBar'
 import Overlay from '../OverlayMenu'
 import { useOverlayContext } from '../OverlayMenu/Context'
 import styles from './Layout.module.css'
+import { ReactComponent as Graphics } from '../../../assets/Graphics.svg'
 
 function Layout() {
 
@@ -36,6 +37,9 @@ function Layout() {
                 </div>
                 <div className={styles.detailsCalloutContainer}>
                     <DetailsCallout />
+                </div>
+                <div className={styles.graphicsContainer}>
+                    <Graphics height={275} />
                 </div>
             </div>
         </>

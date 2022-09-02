@@ -24,3 +24,8 @@
 .detailsCalloutContainer {
     margin-top: 12px;
 }
+
+.graphicsContainer {
+    display: flex;
+    justify-content: center;
+}
