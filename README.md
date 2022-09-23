@@ -1,4 +1,4 @@
-# Take Home Test
+# Responsive Layout
 
 Umair Ansari
 September 2, 2022
